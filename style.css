@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b0b0b;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+  url("https://images.unsplash.com/photo-1605902711622-cfb43c4437b5");
+  background-size: cover;
+  background-position: center;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav h1 {
+  color: #ff4d4d;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* CENTER */
+.center {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.center h2 {
+  font-size: 45px;
+  color: #ff4d4d;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.play {
+  background: #ff4d4d;
+  color: white;
+}
+
+.discord {
+  background: #5865F2;
+  color: white;
+}
+
+/* APPLY */
+#apply {
+  padding: 60px 20px;
+}
+
+form {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #1a1a1a;
+  color: white;
+}
+
+button {
+  padding: 15px;
+  background: #ff4d4d;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
